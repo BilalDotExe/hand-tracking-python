@@ -33,8 +33,8 @@ detector = HandLandmarker.create_from_options(options)
 
 # ======Opens Webcam=========
 cap = cv2.VideoCapture(1)
-cap.set(cv2.CAP_PROP_FRAME_WIDTH, 640)
-cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 480)
+cap.set(cv2.CAP_PROP_FRAME_WIDTH, 1200)
+cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 720)
 
 # timestamp counter
 timestamp_ms = 0
